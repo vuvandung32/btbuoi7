@@ -1,252 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>formdangkiface</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
     <style>
-      .gg {
-        display: block;
-        width: 400px;
-        height: 800px;
-        background-color: yellow;
-        margin: 30px auto;
-        border-radius: 4px solid 2px;
-        flex-direction: row;
-      }
-      .for {
-        display: block;
-        width: 100%;
-        height: 15%;
-        background-color: wheat;
-        border: 1px solid black;
-        border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
-      }
+        .helo 
+        {
+            
+            border: 2px solid red;
+            background-color: yellow;
+            width: 200px;
+            margin: 30px auto;
+        }
+        a{
+            text-decoration: none;
+            color: red;
 
-      #h {
-        font-size: 25px;
-        line-height: 32px;
-        text-align: center;
-        margin-bottom: 0px;
-        padding-top: 20px;
-      }
-      #k {
-        text-align: center;
-        font-size: 15px;
-        line-height: 24px;
-        margin-bottom: 0px;
-      }
-      .fot {
-        background-color: wheat;
-        width: 100%;
-        height: 85%;
-        border-bottom-left-radius: 6px;
-        border-bottom-right-radius: 6px;
-        text-align: center;
-        border: 1px solid black;
-      }
-      .ho1 {
-        border-radius: 5px;
-        margin: 7px 0px 5px 0px;
-        height: 20px;
-      }
-      input {
-        margin-top: 15px;
-        padding: 12px 10px;
-      }
-      #gmail {
-        width: 350px;
-      }
-      .sinhgioi {
-        float: left;
-        margin-left: 18px;
-      }
-
-      #countries {
-        margin-top: 15px;
-        padding: 12px 10px;
-        width: 120px;
-      }
-
-      .boder {
-        border-radius: 5px;
-      }
-
-      #nam {
-        border: 1px solid rgb(25, 20, 20);
-        padding: 5px 8px;
-        width: 120px;
-        margin: 8px 6px 6px 18px;
-        float: left;
-        font-size: 20px;
-        position: relative;
-        background-color: white;
-        text-align: center;
-      }
-      .fot .thongtin {
-        font-size: 12px;
-        text-align: left;
-        margin: 13px;
-      }
-      button {
-        background-color: green;
-        font-size: 20px;
-        color: white;
-        border-radius: 4px;
-        width: 200px;
-        height: 40px;
-      }
-      button:hover {
-        color: red;
-        background-color: greenyellow;
-      }
-      a {
-        text-decoration: none;
-      }
-      a:hover {
-        color: red;
-      }
+        }
+        .conten{
+           text-align: center;
+        }
+        button{
+            padding: 10px;
+            border-radius: 4px;
+            background-color: white;
+            color: red ;
+        }
+        button:hover{
+            background-color: yellow;
+        }
     </style>
-  </head>
-  <body>
-    <div class="gg">
-      <div class="for">
-        <div id="h">Tạo tài khoản mới</div>
-        <div id="k">Nhanh chóng và dễ dàng.</div>
-      </div>
-      <div class="fot">
-        <form action="">
-          <div>
-            <input class="ho1" type="text" placeholder="Họ" />
-            <input class="ho1" type="text" placeholder="Tên" />
-          </div>
+</head>
+<body>
+<div class="conten">
+    <button onclick="alert('em chào cô')"><a href="formfacebook.html">bài tập form Facebook</a></button>
 
-          <input
-            id="gmail"
-            class="boder"
-            type="text"
-            placeholder="số điện thoại hoặc egmail..."
-          />
-          <input
-            id="gmail"
-            class="boder"
-            type="password"
-            placeholder="mật khẩu"
-            required
-          />
-          <br />
-          <label class="sinhgioi">Sinh nhật❓</label>
-          <br /><br />
-          <div>
-            <select name="countries" id="countries" class="boder">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16" selected="1">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>
-            </select>
-            <select name="countries" id="countries" class="boder">
-              <option value="1">Tháng 1</option>
-              <option value="2">Tháng 2</option>
-              <option value="3">Tháng 3</option>
-              <option value="4">Tháng 4</option>
-              <option value="5">Tháng 5</option>
-              <option value="6">Tháng 6</option>
-              <option value="7" selected="1">Tháng 7</option>
-              <option value="8">Tháng 8</option>
-              <option value="9">Tháng 9</option>
-              <option value="10">Tháng 10</option>
-              <option value="11">Tháng 11</option>
-              <option value="12">Tháng 12</option>
-            </select>
-            <select name="countries" id="countries" class="boder">
-              <option value="2022" selected="1">2022</option>
-              <option value="2021">2021</option>
-              <option value="2020">2020</option>
-              <option value="2019">2019</option>
-              <option value="2018">2018</option>
-              <option value="2017">2017</option>
-              <option value="2016">2016</option>
-              <option value="2015">2015</option>
-              <option value="2014">2014</option>
-              <option value="2013">2013</option>
-              <option value="2012">2012</option>
-              <option value="2011">2011</option>
-              <option value="2010">2010</option>
-              <option value="2009">2009</option>
-              <option value="2008">2008</option>
-              <option value="2007">2007</option>
-              <option value="2006">2006</option>
-              <option value="2005">2005</option>
-              <option value="2004">2004</option>
-              <option value="2003">2003</option>
-              <option value="2002">2002</option>
-              <option value="2001">2001</option>
-              <option value="2000">2000</option>
-              <option value="1999">1999</option>
-              <option value="1998">1998</option>
-              <option value="1997">1997</option>
-              <option value="1996">1996</option>
-              <option value="1995">1995</option>
-            </select>
-          </div>
-          <br />
-          <label class="sinhgioi"> giới tính </label>
-          <br />
-          <div class="gioitinh">
-            <span id="nam" class="boder">
-              <label for="">nam</label>
-              <input type="radio" name="man" />
-            </span>
-            <span id="nam" class="boder">
-              <label for="">nữ</label>
-              <input type="radio" name="man" />
-            </span>
-          </div>
-          <br /><br /><br />
-          <p class="thongtin">
-            Người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của
-            bạn lên Facebook. Tìm hiểu thêm.
-          </p>
+    <button> <a href="xsmb.html">table xsmb</a></button>
+</div>
 
-          <p class="thongtin">
-            Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách dữ
-            liệu và Chính sách cookie của chúng tôi. Bạn có thể nhận được thông
-            báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
-          </p>
-          <button>ĐĂNG KÝ</button>
-          <br /><br />
-          <a href="#">bạn đã có tài khoản ư ?</a>
-        </form>
-      </div>
-    </div>
-  </body>
+
+</body>
 </html>
